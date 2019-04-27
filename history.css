@@ -1,0 +1,261 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	text-align: center;
+	color: black;
+	padding: 10px;
+	background: url(../images/background.png);
+}
+
+.a{
+	text-decoration:none;
+}
+
+.header {
+	height: 100px;
+	width: 700px;
+	margin: auto;
+	border: 2px black solid;
+	padding: 10px;
+	background: SaddleBrown;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: black;
+}	
+
+.article1 {
+	height: 200px;
+	border: 2px SaddleBrown solid;
+	padding: 10px;
+	background: black;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: silver;
+}
+
+.coffeeheader {
+	padding: 10px;
+	border: 2px black solid;
+	background: SaddleBrown;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	height: 35px;
+	width: 1000px;
+	font-family: Courier new;
+	box-shadow: 0 0 10px black;
+}
+
+.coffeeheader p {
+	font-size: 20px;
+	margin: auto;
+	color: silver;
+}
+
+.coffees {
+	height: 500px;
+	width: 400px;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	position: relative;
+	border: 2px Sienna solid;
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+}
+
+.slide {
+	position: absolute;
+	height: 500px;
+	width: 400px;
+	opacity: 0;
+	position: absolute;
+	
+}
+
+.slide1 {
+	background-image:  url(../images/kape1.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation: coffees 20s linear infinite;
+}
+
+.slide2 {
+	background-image:  url(../images/kape2.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation:coffees 20s linear infinite 5s;
+}
+
+.slide3 {
+	background-image:  url(../images/kape4.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation: coffees 20s linear infinite 10s;
+}
+
+.slide4 {
+	background-image:  url(../images/kape5.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation: coffees 20s linear infinite 15s;
+}
+
+@keyframes coffees {
+	
+	0% {
+		opacity: 0;
+		transform: scale(1);
+	}
+	
+	5% {
+		opacity: 1;
+	}
+	
+	25% {
+		opacity: 1;
+	}
+		
+	30% {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+	
+}
+
+.article2 {
+	height: 150px;
+	border: 2px SaddleBrown solid;
+	padding: 10px;
+	background: black;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: silver;
+}
+
+.image2 {
+	padding: 10px;
+	border: 2px black solid;
+	height: 350px;
+	width: 500px;
+	margin: auto;
+	background-image: url(../images/worldcoffee.jpg); 
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px Sienna;
+	
+}
+
+.image2:hover {
+	background-image: url(../images/worldcoffee2.jpg);
+	height: 350px;
+	width: 500px;
+	box-shadow: 0 0 10px Sienna;
+}
+
+.article3 {
+	height: 200px;
+	border: 2px SaddleBrown solid;
+	padding: 10px;
+	background: black;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: silver;
+}
+
+.image3 {
+	padding: 10px;
+	border: 2px black solid;
+	height: 350px;
+	width: 500px;
+	margin: auto;
+	background-image: url(../images/shop.jpg); 
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px Sienna;
+}
+
+.image3:hover {
+	background-image: url(../images/open.jpg);
+	height: 350px;
+	width: 500px;
+	box-shadow: 0 0 10px Sienna;
+	background-position: center;
+}
+
+.aki {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 150px;
+	width: 1000px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.akiarticle {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.akiimage {
+	height: 150px;
+	width: 300px;
+	background-image: url(../images/aki.jpg);
+	background-position: center;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+
+ul {
+	padding: 10px;
+	grid-template-columns: repeat(3,1fr);
+	display: grid;
+	grid-gap: 10px;
+	margin:	0px;
+	text-align: center;
+	font-family: Courier New;
+	box-shadow: 0 0 10px white;
+}
+
+
+li {
+	padding: 11px;
+	display: grid;
+	border: 2px black solid;
+	background: Sienna;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	transition: all .5s ease-out;
+}
+
+li:hover {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+
