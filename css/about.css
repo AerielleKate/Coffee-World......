@@ -1,0 +1,233 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	text-align: center;
+	color: black;
+	padding: 10px;
+	background:gray;
+	background: url(../images/background.png);
+}
+
+.header {
+	height: 100px;
+	width: 700px;
+	margin: auto;
+	border: 2px black solid;
+	padding: 10px;
+	background: SaddleBrown;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: black;
+}	
+
+.description {
+	height: 50px;
+	border: 2px SaddleBrown solid;
+	padding: 10px;
+	background: black;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: silver;
+	box-shadow: 0 0 10px white;
+}
+
+.history-americano {
+	height: 60px;
+	width: 650px;
+	margin: auto;
+	border: 2px black solid;
+	padding: 10px;
+	background: SaddleBrown;
+	border-radius: 20px;
+	font-family: Courier New;
+	color: black;
+}
+
+	
+.fact {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 280px;
+	width: 1000px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 40fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+}
+
+.sheet {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image-history {
+	height: 250px;
+	width: 300px;
+	background-image: url(../images/soldier.jpg);
+	background-position: center;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.follow {
+	padding: 10px;
+	border: 2px black solid;
+	background: SaddleBrown;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	font-family: Courier new;
+	box-shadow: 0 0 10px black;
+}
+
+.follow p {
+	font-size: 20px;
+	margin: auto;
+	color: silver;
+}
+	
+
+.fbimage {
+	padding: 10px;
+	border: 2px black solid;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	background-image: url(../images/facebook.jpg); 
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px Sienna;
+}
+
+.fbarticle {
+	padding: 10px;
+	border: 2px black solid;
+	background: SaddleBrown;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	font-family: Courier new;
+	margin: auto;
+	box-shadow: 0 0 10px black;
+}
+
+.fbarticle p {
+	font-size: 20px;
+	margin: auto;
+	color: silver;
+}
+
+.instaimage {
+	padding: 10px;
+	border: 2px black solid;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	background-image: url(../images/instagram.jpeg); 
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px Sienna;
+}
+
+.instaarticle {
+	padding: 10px;
+	border: 2px black solid;
+	background: SaddleBrown;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	font-family: Courier new;
+	margin: auto;
+	box-shadow: 0 0 10px black;
+}
+
+.instaarticle p {
+	font-size: 20px;
+	margin: auto;
+	color: silver;
+}
+
+.twitterimage {
+	padding: 10px;
+	border: 2px black solid;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	background-image: url(../images/twitter.jpg); 
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px Sienna;
+}
+
+.twitterarticle {
+	padding: 10px;
+	border: 2px black solid;
+	background: SaddleBrown;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	font-family: Courier new;
+	margin: auto;
+	box-shadow: 0 0 10px black;
+}
+
+.twitterarticle p {
+	font-size: 20px;
+	margin: auto;
+	color: silver;
+}
+	
+ul {
+	padding: 10px;
+	grid-template-columns: repeat(3,1fr);
+	display: grid;
+	grid-gap: 10px;
+	margin:	0px;
+	text-align: center;
+	font-family: Courier New;
+	box-shadow: 0 0 10px white;
+}
+
+
+li {
+	padding: 11px;
+	display: grid;
+	border: 2px black solid;
+	background: Sienna;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	transition: all .5s ease-out
+}
+
+li:hover {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}

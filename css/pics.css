@@ -1,0 +1,338 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	text-align: center;
+	color: black;
+	padding: 10px;
+	background: url(../images/background.png);
+}
+
+.header {
+	height: 100px;
+	width: 700px;
+	margin: auto;
+	border: 2px black solid;
+	padding: 10px;
+	background: SaddleBrown;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: black;
+}
+
+.intro {	
+	height: 50px;
+	border: 2px black solid;
+	padding: 10px;
+	background: Sienna;
+	border-radius: 10px;
+	font-family: Courier New;
+	color: silver;
+	box-shadow: 0 0 10px black;	
+}
+
+.americano {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.1 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image1 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/americano.jpg);
+	background-position: center;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.capuccino {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.2 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image2 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/capuccino.jpg);
+	background-position: right;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.caramel-macchiato {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.3 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image3 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/caramelmacchiato.jpg);
+	background-position: center;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.french-vanilla {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.4 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image4 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/frenchvanilla.jpg);
+	background-position: top;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.mocha {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.5 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image5 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/coffeemocha.jpg);
+	background-position: center;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.espresso {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.6 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image6 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/espresso.jpg);
+	background-position: center;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.galaxy {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.7 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image7 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/galaxy.jpg);
+	background-position: top;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+.rainbow {
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 220px;
+	width: 1200px;
+	border: 2px SaddleBrown solid;
+	display: grid;
+	grid-template-columns: 300fr 1fr;
+	grid-gap: 20px;
+	background: black;
+	border-radius: 10px;
+	margin: auto;
+	color: silver;
+	box-shadow: 0 0 10px white;
+	font-family: Courier New;
+}
+
+.8 {
+	font-family: Courier New;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background-position: center;
+}
+
+.image8 {
+	height: 200px;
+	width: 300px;
+	background-image: url(../images/rainbow.jpg);
+	background-position: top;
+	background-size: cover;
+	float:left;
+	grid-template-columns: 10fr 1fr;
+}
+
+
+ul {
+	padding: 10px;
+	grid-template-columns: repeat(3,1fr);
+	display: grid;
+	grid-gap: 10px;
+	margin:	0px;
+	text-align: center;
+	font-family: Courier New;
+	box-shadow: 0 0 10px white;
+}
+
+
+li {
+	padding: 11px;
+	display: grid;
+	border: 2px black solid;
+	background: Sienna;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	transition: all .5s ease-out
+	text-decoration: none;
+	
+}
+
+li:hover {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
